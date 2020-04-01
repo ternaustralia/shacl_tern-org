@@ -15,10 +15,10 @@
   a owl:Ontology ;
   dct:created "2020-02-20" ;
   dct:creator "Edmond Chuc" ;
-  dct:modified "2020-02-21" ;
+  dct:modified "2020-04-01" ;
   owl:imports <http://datashapes.org/dash> ;
   owl:imports <https://w3id.org/tern/ontologies/org/> ;
-  owl:versionInfo "0.0.2" ;
+  owl:versionInfo "0.0.3" ;
 .
 :ChangeEvent
   a rdfs:Class ;
@@ -198,7 +198,6 @@
       a sh:PropertyShape ;
       sh:path <http://www.w3.org/ns/org#hasSite> ;
       sh:class <http://www.w3.org/ns/org#Site> ;
-      sh:minCount 1 ;
       sh:name "has site" ;
       sh:nodeKind sh:IRI ;
     ] ;
